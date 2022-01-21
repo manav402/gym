@@ -136,6 +136,7 @@ form input{
     position: absolute;
     right:23%;
     width:29%;
+    visibility:visible;
     margin-top:162px;
     /* padding-left: 120px; */
     padding:35px 0px 40px 66px;
@@ -143,6 +144,11 @@ form input{
 
     /* margin: 0px auto; */
     border-left: 7px solid rgb(120, 122, 120);
+}
+@media only screen and (max-width:1100px) {
+    #text{
+        visibility: hidden;
+    }
 }
 
 ::placeholder{

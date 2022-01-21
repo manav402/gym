@@ -17,8 +17,23 @@ body{
 }
 form{
     display:block;
+    width:80vw;
     overflow: hidden;
     height:135vh;
+}
+.txt2{
+    display:block;
+    visibility: hidden;
+    /* position: absolute; */
+    /* right:23%; */
+    /* width:29%; */
+    /* margin-top:162px; */
+    /* padding-left: 120px; */
+    /* padding:35px 0px 40px 66px; */
+    /* text-align: center; */
+
+    /* margin: 0px auto; */
+    /* border-left: 7px solid rgb(120, 122, 120); */
 }
 ul{
     display:flex;
