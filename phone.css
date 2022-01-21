@@ -1,0 +1,36 @@
+.mid{
+    flex-direction:column;
+    width:100%;
+    opacity: 0.5;
+}
+.mid:hover{
+    opacity: 1;
+}
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+form{
+    overflow: hidden;
+    height:135vh;
+}
+ul{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.right{
+    visibility:hidden;
+}
+.images{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+}

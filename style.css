@@ -6,6 +6,12 @@
     font-family: 'Bebas Neue', cursive;
     font-size:25px;
 }
+html{
+    scroll-behavior: smooth;
+}
+#main{
+    display: flex;
+}
 body{
     background-image: url(bg.jpg);
     background-size: cover;
@@ -25,17 +31,24 @@ input{
     margin-top:4px;
 }
 .mid{
-    display: block;
+    display: flex;
+    flex-direction: row;
     width: 80%;
     /* padding: 6px auto; */
     /* margin: 3px auto; */
     margin-top: 5px;
     padding-top:5px;
+    position: sticky;
+    top: 0;
+    opacity: 0.6;
     padding-bottom:5px;
     border: 2px solid #9d9d89;
     background-color: rgb(58, 57, 57);
     color: white;
     border-radius: 10px;
+}
+.mid:hover{
+    opacity: 1;
 }
 .mid li{
     display: inline-block;
