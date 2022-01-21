@@ -35,6 +35,9 @@ form{
     /* margin: 0px auto; */
     /* border-left: 7px solid rgb(120, 122, 120); */
 }
+#text{
+    visibility: hidden;
+}
 ul{
     display:flex;
     flex-direction:column;
